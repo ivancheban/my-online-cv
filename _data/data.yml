@@ -1,0 +1,201 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    # about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Ivan Cheban
+    tagline: Senior Technical Writer
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: ivancheban@gmail.com
+    phone: +380 (95) 274 8078
+    website: tw-docs.com
+    skype: ivan_cheban
+    telegram: ivan_cheban
+    linkedin: ivan-cheban-a24b576
+    github: ivancheban
+    gitlab: ivancheban
+    # bitbucket:
+    # twitter: '@webjeda'
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+    # codewars:
+    # goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: English
+        level: advanced
+
+      - idiom: French
+        level: intermediate
+
+      - idiom: Ukrainian
+        level: native
+
+    interests:
+      - item: Static Site Generators
+        link:
+
+      - item: Technical writing
+        link:
+
+      - item: MadCap Flare
+        link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+          - 7 years of experience as a technical writer
+          - Experienced Senior Technical Writer and Lead Technical Writer
+          - Well organized and detail-oriented
+          - Able to work independently as well as collaboratively on a team, flexible
+          - Experienced in working under tight deadlines
+          - Fast learner, willing to learn new skills
+
+experiences:
+    - role: Senior Technical Writer
+      time: 2018 – Present
+      company: EPAM Systems, Kyiv
+      details: |
+        ##### A global technology company. The company provides sustainable energy solutions to buildings, utilities, industries, and infrastructure sectors, headquartered in Zurich, Switzerland
+          - Development of a web-based user interface application providing geographical network representation and its state visualization, which improves situational awareness of operators and field crew personnel to make efficient and correct decisions. It allows efficient analysis and diagnosis as well as enables a quicker time to establish an action plan.
+          - Create the end-user documentation for the users of an application: User Guide, Release Notes
+          - Create the documentation for administrators and developers: Installation Guide
+          - Provide updates to the online documentation for existing products using MadCap Flare and custom-built documentation tools with Markdown
+          - Technologies: Azure DevOps, Confluence, Git, Visual Studio Code, MadCap Flare, Docker Desktop, Kubernetes
+
+        ##### A leading provider of cloud-ready privileged access, California, USA
+          - Cloud infrastructure entitlements management solution to govern resources and identities for the cloud service providers like Azure, AWS, or GCP.
+          - Writing technical documentation for the project:
+            - Solution Architecture Document
+            - API Reference docs
+            - CI/CD pipelines description
+            - Maintain Confluence KB of the new platform architecture
+            - Write readme for repos with developer code (.NET Core, Angular)
+            - End-user docs: user guides and how-tos.
+          - Azure DevOps repositories and wiki from code, Swagger, Visual Studio Code and Git flow, docs-as-code, Markdown and Help Authoring Tools (HAT) for PDF, SonarQube and WhiteSource for CI/CD pipelines description, .NET, Angular.
+
+        ##### A Global Services Provider for the Life Science industry that implements omnichannel projects and communication strategies for the global pharmaceutical market, Ukraine, Estonia, USA, Canada, India
+          - Content Experience Platform is an all-in-one solution for content management and acceleration developed specifically for the needs of pharmaceutical marketing.
+          - Use static site generator for building the docs site for the product framework
+          - Describe APIs, CLI, code examples
+          - Prepare release notes for the framework and CLI features updates
+          - Technologies: JavaScript, Vue.js, VuePress, GitLab, Visual Studio Code, Vale linter, Confluence, Jira, TeamCity
+        
+        ##### Business information and media project
+          - Described the tools for data modelling that generate GraphQL schema and configuration
+          - Maintained and created the documentation:
+            - GraphQL API Specification in Confluence
+            - Reference documentation for GraphQL in the API Playground (Markdown readme)
+            - The readme.md for GitHub repository with Jupyter Notebooks
+          - Created the Handlebars.js configuration for the GraphQL sample queries
+          - Worked with Jupyter Notebooks, Handlebars.js, GraphQL API, Swagger, VS Code, GitLab, GitHub, Angular.js, Docusaurus
+        
+        ##### Retail & distribution Azure machine learning project
+          - Created a general project description document
+          - Described the project goal and high-level architecture
+          - Described the technology stack
+          - Described in detail the ADF pipelines and Python scripts
+          - Created the description of the scripts (reverse engineering of Python scripts for data transformations)
+          - Created the project glossary of abbreviations and terms
+        
+        ##### Software & hi-tech project
+          - Created user guides for the customer's web portals
+          - Used MadCap Flare to create the engaging end-user documentation
+        
+        ##### Business information and media project
+          - Rebranded the customer's online help using MadCap Flare
+          - Used MadCap Flare to edit the legacy online help modules published to the app server as an HTML5 output
+          - Conducted inventory of the exisiting apps and online help, discussed them with product owners
+        
+        ##### Software & hi-tech SAP S4HANA finance system project
+          - Described business processes and workflows used for developing and customizing the SAP system
+          - Described the change request (CR) workflow
+          - Created the Confluence templates for change requests
+          - Interviewed the SMEs and described the steps required to perform the transactions in the SAP systems (open/close periods, etc.)
+          - Created the project glossary and linked the terms from other Confluence KB pages
+          - Showed the demo for the project documentation to the team
+        
+        ##### Business information and media project
+          - Found the workaround to publish the MadCap Flare HTML5 output in SharePoint Online by mapping the SharePoint location as a network drive
+          - Created GitLab group and branches for all technical writers on our project
+          - Created the workflow and instructions to bind the MadCap project to the Git repository, commit/push/pull/merge changes and publish to SharePoint Online
+          - Created user guides and video tutorial for the web portals to view and validate metadata
+          - Created the project glossary in SharePoint and in MadCap Flare
+          - Created a separate project in MadCap Flare and GitLab for the project Style Guide
+          - Demonstrated the documentation portal capabilities and the team workflows for the leadership
+          - Participated in the meetings with the leadership on behalf of all the team
+
+        ##### Pharmaceuticals, life sciences & healthcare project
+          - Wrote about MDM systems, ETL and DWH
+          - Traveled to New York to work on-site for Discovery phase
+          - Worked closely with the solution architect and assisted in writing the Solution Architecture Document
+          - Learned about AWS, Redshift, Aurora, PostgreSQL, S3 buckets, Lambda, CloudWatch, CloudFormation, EC2, ELB, Airflow, Tomcat server, SemQL, Informatica Cloud, Spark, Parquet, domain model, logical data model
+          - Worked with MadCap Flare, Confluence, GitHub, Draw.io
+    - role: Lead Technical Writer
+      time: 2017 - 2018
+      company: Betlab (Parimatch), Kyiv
+      details: |
+          - Managed the team of three other technical writers acting as a team lead
+          - Controlled the quality of documentation produced by other technical writers
+          - Implemented localization for the project documentation using memoQ and MadCap Flare
+          - Wrote technical documentation for the software products such as product concepts, user guides, quick start guides, SRS specifications
+          - Described the system architecture in Confluence
+          - Described APIs using Swagger and Open API in Confluence
+          - Worked closely with the solution architect and lead developers
+          - Created diagrams of system components interaction in draw.io
+
+education:
+    - degree: Master's degree in translation
+      university: Kyiv International University
+      time: 2005 — 2008
+      details: |
+          - Institute of Linguistics, second higher education
+          - Certified English translator and interpreter
+
+    - degree: Master's degree in linguistics (English, French)
+      university: National Pedagogical Dragomanov University, Kyiv
+      time: 1998 - 2003
+      details: |
+          - 3 years of experience as a technical writer
+          - 10+ years of experience in translation and interpreting
+          - Experience in using MadCap Flare for writing technical documentation
+          - Confluence, Jira, Draw.io, Git
+          - Experience in writing about betting software, security systems, CMS, MDM systems
+          - Certified English translator
+          - Fluent English, intermediate French, native Ukrainian
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: MadCap Flare
+        level: 100%
+
+      - name: Confluence
+        level: 100%
+
+      - name: Git
+        level: 80%
+
+      - name: Jira
+        level: 80%
+
+      - name: Docusaurus
+        level: 85%
+
+      - name: VuePress
+        level: 80%
+
+      - name: Snagit
+        level: 100%
+
+      - name: Draw.io
+        level: 80%
+
+footer: >
+    (C) Ivan Cheban 2024
